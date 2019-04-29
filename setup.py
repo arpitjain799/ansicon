@@ -27,7 +27,7 @@ def readme(filename, encoding='utf8'):
 
 setup(
     name='ansicon',
-    version='1.88.0',
+    version='1.89.0',
     description="Python wrapper for loading Jason Hood's ANSICON",
     long_description=readme('README.rst'),
     author='Avram Lubkin',
