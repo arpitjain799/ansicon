@@ -8,7 +8,8 @@ max-line-length=100
 
 [MESSAGES CONTROL]
 disable=
-    useless-object-inheritance
+    redundant-u-string-prefix,  # Python 2
+    useless-object-inheritance  # Python 2
 
 [SPELLING]
 
