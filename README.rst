@@ -33,6 +33,8 @@
 
 .. end-badges
 
+Just doing a test for codecov
+
 Overview
 ========
 ansicon is a Python wrapper for loading `Jason Hood`_'s ANSICON_
