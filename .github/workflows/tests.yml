@@ -31,7 +31,7 @@ jobs:
             python-arch: x64
             os: ubuntu-latest
 
-          - toxenv: codecov
+          - toxenv: coverage
             python-version: 3.x
             python-arch: x64
 
@@ -63,3 +63,7 @@ jobs:
 
       - name: Run tox
         run: tox -- --verbose
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        if: ${{ matrix.toxenv == 'coverage' }}
